@@ -1,4 +1,4 @@
-{pkgs ? <nixpkgs>}: let
+{pkgs}: let
   inherit (pkgs) lib;
   name = "run-raincloud-installer";
 in
